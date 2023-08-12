@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    text-align: center;
+    font-family: Archivo;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+h1{
+    background-color: rgb(20, 20, 20);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h1 a{
+    color: blueviolet;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+h1 a:hover{
+    font-size: larger;
+    text-shadow: 5px 5px 2px black;
+}
+
+
+label{
+    color: rgb(162, 89, 230);
+    font-weight: 750;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgb(30, 30, 30);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form{
+    background-color: rgb(40, 40, 40);
+    padding: 30px;
+    margin: 0 50px 0 50px ;
+    border: 0 50px 0 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(20, 20, 20);
+    
+}
+
+
+#numero, #data, #titulo{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 3px rgb(20, 20, 20);
+    font-weight: 750;
+    background-color: rgb(199, 199, 199);
+
+}
+
+#desc{
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    border: none;
+}
+
+#desc{
+    font-weight: 750;
+}
+
+#limpar, #finalizar{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(162, 89, 230);
+    color: rgb(40, 40, 40);
+    font-weight: 1000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgb(30, 30, 30);
+    width: 210px;
+    height: 40px;
+    transition: ease-in-out 0.5s;
+}
+
+#limpar:hover, #finalizar:hover{
+    width: 230px;
+    height: 50px;
+    background-color: blueviolet;
+    box-shadow: 10px 10px 5px rgb(30, 30, 30);
+}
+
+@media (min-width: 1710px) and (max-width: 4198px){
+    form{
+        background-color: rgb(40, 40, 40);
+        padding: 30px;
+        margin: 0 500px 0 500px ;
+        border: 0 50px 0 50px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px rgb(20, 20, 20);
+        
+    }
+}
+
+@media (min-width: 10px) and (max-width: 800px){
+    #desc{
+        width: 300px;
+    }
+
+    #limpar, #finalizar{
+        margin: 10px;
+    }
+}
