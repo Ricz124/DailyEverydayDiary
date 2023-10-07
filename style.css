@@ -69,6 +69,16 @@ form{
     font-weight: 750;
 }
 
+.footer{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    background-color: grey;
+    
+}
+
 #limpar, #finalizar{
     padding: 10px;
     margin-left: 20px;
